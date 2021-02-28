@@ -11,15 +11,6 @@ function Hero(name) {
 function orderOperations() {
   return (2 + 2) * (2 + 2) * 2;
 }
-// You are creating a text-based terminal version of your favorite board game. In the board game, each turn has six steps that must happen in this order: roll the dice, move, combat, get coins, buy more health, and print status.
-function doTurn() {
-  rollDice();
-  move();
-  combat();
-  getCoins();
-  buyHealth();
-  printStatus();
-}
 
 // While making a zork-type game, you create an object of rooms. Unfortunately, the game is not working. Find all of the errors in the rooms object to get your game working again.
 var rooms = {
@@ -93,7 +84,7 @@ Array.prototype.filter = function (func) {
   return filtered;
 };
 
-//
+// This code is a mess! Would you help Pac to fix the code in time?
 const yourFutureCareer = (career = Math.random()) =>
   career <= 0.32
     ? `FrontEnd Developer`
@@ -135,7 +126,7 @@ function expressionMatter(a, b, c) {
   );
 }
 
-//
+// Write a function that takes such collection and counts the points of our team in the championship.
 function points(games) {
   return games
     .map((x) => x.split(':'))
