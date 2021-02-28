@@ -218,14 +218,6 @@ function ifChuckSaysSo() {
   return 5 == 4;
 }
 
-// Task: Your task is to complete the Cat class which Extends Animal and replace the speak method to return the cats name + meows. e.g. 'Mr Whiskers meows.'
-// The name attribute is passed with this.name (JS), @name (Ruby) or self.name (Python).
-// class Cat extends Animal {
-//   speak() {
-//     return `${this.name} meows.`;
-//   }
-// }
-
 // The code provided is supposed return a person's Full Name given their first and last names.
 //But it's not working properly.
 // Notes: The first and/or last names are never null, but may be empty.
@@ -273,27 +265,6 @@ function countPositivesSumNegatives(input) {
   }
   return [p, n];
 }
-
-console.log(
-  countPositivesSumNegatives([
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    -11,
-    -12,
-    -13,
-    -14,
-    -15,
-  ])
-);
-console.log(countPositivesSumNegatives([]));
 
 // Create a method all which takes an array and a predicate (function pointer), and returns true if the predicate returns true for every element in the array. Otherwise, it should return false. If the array is empty, it should return true, since technically nothing failed the test.
 function all(arr, fun) {
