@@ -74,8 +74,8 @@ function equal5() {
   return a % b;
 }
 
-// Task: misson 1: I've create three function, and defined some global variables, please select some variables that can make up the name of the function, and return them(Please note the uppercase and lowercase letters are different).
-// misson 2: After misson 1 finished. you should click "Attempt" to see my three questions, and write the answer in function answer1, answer2,answer3
+// Task: mission 1: I've create three function, and defined some global variables, please select some variables that can make up the name of the function, and return them(Please note the uppercase and lowercase letters are different).
+// misson 2: After mission 1 finished. you should click "Attempt" to see my three questions, and write the answer in function answer1, answer2,answer3
 var a1 = 'A',
   a2 = 'a',
   b1 = 'B',
@@ -256,8 +256,6 @@ function countPositivesSumNegatives(input) {
   if (input == null || input == 0) return [];
   let p = 0,
     n = 0;
-  //input.forEach((x) => (x > 0 ? p++ : (n += x)));
-  //return [p, n];
 
   for (let i = 0; i < input.length; i++) {
     if (input[i] < 0) n += input[i];
